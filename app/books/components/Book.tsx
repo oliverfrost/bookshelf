@@ -2,7 +2,7 @@ import {Book} from '@/models/book.model';
 import Genre from "@/app/books/components/Genre";
 import Link from "next/link";
 
-export default function Book(props: { book: Book }) {
+export default function BookItem(props: { book: Book }) {
     const {book} = props;
 
     return <div className="max-w-sm rounded overflow-hidden shadow-lg">
